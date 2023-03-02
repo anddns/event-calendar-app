@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Calendar App</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="calendar" class="calendar">
+
+      <header class="calendar__header">
+
+        <p class="header__date"></p>
+
+        <div class="button__group">
+
+          <button id="last-month" class="button__item">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+
+          </button>
+
+          <button id="next-month" class="button__item">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+            </svg>
+
+          </button>
+
+        </div>
+
+      </header>
+
+      <main class="calendar__body">
+
+        <ul class="weekday__group">
+
+          <li class="weekday__item">
+            <span>D</span>
+          </li>
+          <li class="weekday__item">
+            <span>S</span>
+          </li>
+          <li class="weekday__item">
+            <span>T</span>
+          </li>
+          <li class="weekday__item">
+            <span>Q</span>
+          </li>
+          <li class="weekday__item">
+            <span>Q</span>
+          </li>
+          <li class="weekday__item">
+            <span>S</span>
+          </li>
+          <li class="weekday__item">
+            <span>S</span>
+          </li>
+
+        </ul>
+
+        <ul class="day__group">
+
+        </ul>
+
+      </main>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
