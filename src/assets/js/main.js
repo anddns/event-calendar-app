@@ -1,6 +1,6 @@
 import '../../assets/css/main.css';
 
-const CALENDAR_HEADER_DATE = document.querySelector('p.header__date');
+const CALENDAR_HEADER_DATE = document.querySelector('h2.header__date');
 const CALENDAR_BODY = document.querySelector('ul.day__group');
 const NEXT_MONTH_BUTTON = document.querySelector('button#next-month');
 const LAST_MONTH_BUTTON = document.querySelector('button#last-month');

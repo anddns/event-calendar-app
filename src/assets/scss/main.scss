@@ -54,7 +54,7 @@ body {
     justify-content: space-between;
     padding: 2rem;
 
-    & > p {
+    & > h2 {
         font-size: 1.875rem;
         font-weight: 500;
     }
@@ -195,73 +195,6 @@ body {
     }
 
 }
-
-
-// & > main {
-//     display: block;
-//     width: 100%;
-//     padding: 2rem;
-
-// & > .weekday__group {
-// display: flex;
-// flex-wrap: wrap;
-// text-align: center;
-
-// & > .weekday__item {
-//     position: relative;
-//     font-weight: 500;
-//     width: calc(100% / 7);
-//     font-size: 1.25rem;
-// }
-
-// display: grid;
-// grid-template-columns: repeat(7, calc(100% / 7));
-// }
-
-// & > .day__group {
-// position: relative;
-// display: flex;
-// flex-wrap: wrap;
-// text-align: center;
-
-// & > .day__item {
-// display: flex;
-// position: relative;
-// align-items: center;
-// justify-content: center;
-// width: calc(100% / 7);
-// padding: 2rem 0;
-// cursor: pointer;
-// z-index: 1;
-
-// & > span {
-//     // display: flex;
-//     width: 2.5rem;
-//     height: 2.5rem;
-//     // justify-content: center;
-//     // align-items: center;
-//     border-radius: 50%;
-
-//     &:hover {
-//         background-color: var(--fifth-color);
-//         transition: all 200ms ease-in;
-//     }
-// }
-// }
-
-// }
-// }
-// }
-
-// }
-
-// .day--inactive {
-//     color: var(--secondary-text-color);
-
-//     & > span:hover {
-//         background-color: red;
-//     }
-// }
 
 ul,
 li {

@@ -53,7 +53,7 @@ body {
   justify-content: space-between;
   padding: 2rem;
 }
-.calendar__header > p {
+.calendar__header > h2 {
   font-size: 1.875rem;
   font-weight: 500;
 }
