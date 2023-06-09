@@ -1,4 +1,4 @@
-import '../css/main.css';
+import '../../assets/css/main.css';
 
 const CALENDAR_HEADER_DATE = document.querySelector('p.header__date');
 const CALENDAR_BODY = document.querySelector('ul.day__group');
